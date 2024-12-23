@@ -1,0 +1,14 @@
+{
+  "name": "Display Control",
+  "version": "1.0",
+  "slug": "display_control",
+  "description": "Contrôle de l'écran ST7789",
+  "startup": "application",
+  "boot": "auto",
+  "host_network": true,
+  "options": {},
+  "schema": {},
+  "arch": ["armhf", "armv7", "aarch64"],
+  "ports": {},
+  "init": false
+}

@@ -1,0 +1,7 @@
+FROM python:3.9-slim
+
+RUN pip install RPi.GPIO Pillow st7789 micropython-rpi.gpio
+
+COPY display_control.py /display_control.py
+
+CMD ["python", "/display_control.py"]
